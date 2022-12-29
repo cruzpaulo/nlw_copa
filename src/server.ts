@@ -10,7 +10,6 @@ import { guessRoutes } from './routes/guess'
 
 async function bootstrap() {
 
-
   const secret = process.env["SECRET_JWT"]
 
   const fastify = Fastify({
